@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* https://tailwindcss.com/docs/typography-plugin#element-modifiers */
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent; /* android highlights taps on links */
+    -webkit-font-smoothing: subpixel-antialiased; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth */
+  }
+  
+  a {
+    @apply underline-offset-4;
+  }
+}
