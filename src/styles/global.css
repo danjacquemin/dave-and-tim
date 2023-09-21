@@ -21,16 +21,7 @@
 
 /* -- -- -- */
 
-.light-icons svg {
-  fill: white;
-}
-
-.dark-icons svg {
-  fill: black;
-}
-
-.light-icons svg.icon-green,
-.dark-icons svg.icon-green {
+svg.icon-green {
   fill: green;
 }
 
