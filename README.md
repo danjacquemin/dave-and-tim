@@ -1,6 +1,14 @@
 # Dave & Tim Swag Site
 
-###
+Dave Matthews & Tim Reynolds have this gig in Mexico and I want to create swag that can be easily ported to a t-shirt or a sticker.
+
+## Stack
+
+[Gatsby](https://www.gatsbyjs.com/)
+
+[tailwindcss](https://tailwindcss.com/)
+
+[styled components](https://styled-components.com/)
 
 [twin.macro](https://www.npmjs.com/package/twin.macro) for Styled Components
 

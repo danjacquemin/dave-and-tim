@@ -1,5 +1,8 @@
 {
-  "editor.rulers": [80, 120],
+  "editor.rulers": [120],
   "editor.formatOnSave": true,
-  "css.customData": [".vscode/tailwind.json"]
+  "editor.wordWrap": "off",
+  "editor.wrappingColumn": 0,
+  "css.customData": [".vscode/tailwind.json"],
+  "prettier.printWidth": 120
 }

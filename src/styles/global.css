@@ -9,8 +9,44 @@
     -webkit-tap-highlight-color: transparent; /* android highlights taps on links */
     -webkit-font-smoothing: subpixel-antialiased; /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth */
   }
-  
+
   a {
     @apply underline-offset-4;
   }
+}
+
+.icon-vertical-flip {
+  transform: scaleY(-1);
+}
+
+/* -- -- -- */
+
+.light-icons svg {
+  fill: white;
+}
+
+.dark-icons svg {
+  fill: black;
+}
+
+.light-icons svg.icon-green,
+.dark-icons svg.icon-green {
+  fill: green;
+}
+
+/* -- -- -- */
+
+svg.icon-360px {
+  width: auto;
+  height: 360px;
+}
+
+svg.icon-larger {
+  width: auto;
+  height: 1.5em;
+}
+
+svg.icon-largest {
+  width: auto;
+  height: 3em;
 }
